@@ -3,10 +3,10 @@ name: Node.js CI
 on:
   push:
     branches:
-       -main
+      - main
   pull_request:
     branches:
-       -main
+      - main
 
 jobs:
   build:
@@ -31,3 +31,4 @@ jobs:
 
     - name: Start application
       run: npm start
+
